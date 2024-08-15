@@ -1,0 +1,22 @@
+.addInfoContainer{
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 10px 20px;
+}
+.addInfoTxt{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.linkDetail{
+  margin-left: 40px;
+  font-size: 17px;
+}
+.detailList{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.linkDetail:hover, .linkDetail:active {
+  color: darkred;
+  text-decoration: underline;
+}
